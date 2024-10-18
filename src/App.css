@@ -1,0 +1,9 @@
+body{
+  background-image: url("pexels-celine-3776818-14771169.jpg"); 
+  background-size: cover; /* Makes the background cover the whole area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Sets height to the full viewport height */
+  width: 100vw; /* Sets width to the full viewport width */
+  position: absolute; /* Allows for full coverage */
+}
