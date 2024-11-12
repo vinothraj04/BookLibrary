@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Login.css'; // Import the CSS file here
 
-const Loginpage = ({ onLogin }) => {
+const loginpage = ({ onLogin }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -33,4 +33,4 @@ const Loginpage = ({ onLogin }) => {
   );
 };
 
-export default Loginpage;
+export default loginpage;
